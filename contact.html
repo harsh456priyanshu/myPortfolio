@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+</head>
+<style>
+    body{
+        background-color: rgb(0, 0, 33);
+    }
+    .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 50px;
+        
+ 
+    }
+.rightsection{
+    background-color: rgb(68, 68, 153);
+    height: 500px;
+    width: 300px;
+    border: 2px solid white;
+    box-shadow: 10px 20px 20px 10px yellow;
+}
+.leftsection{
+    background-color: purple;
+    height: 500px;
+    width: 300px;
+    border: 2px solid white;
+    box-shadow: 10px 20px 20px 10px yellow;
+}
+#inbox{
+    background-color: bisque;
+}
+.btn{
+    background: blueviolet;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 246px;
+    left: 108px;
+    padding: 10px 10px
+}
+</style>
+<body>
+    <div class="box">
+        <div class="rightsection">
+            <h2>Contact me!</h2>
+            <form>
+                <fieldset>
+                    <legend>
+                        First Name:
+                    </legend>
+                    <input type="text" id="inbox">
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Last Name:
+                    </legend>
+                    <input type="text" id="inbox">
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Father Name:
+                    </legend>
+                    <input type="text" id="inbox">
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Occupation:
+                    </legend>
+                    <input type="text" id="inbox">
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        E-mail id:
+                    </legend>
+                    <input type="text" id="inbox">
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Password:
+                    </legend>
+                    <input type="password" id="inbox">
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Select Gender:
+                    </legend>
+                    <div>
+                        <input type="radio">
+                        <label for="male">Male</label>
+                        <input type="radio">
+                        <label for="female">Female</label>
+                        <input type="radio">
+                        <label for="oth.">other</label>
+                    </div>
+                </fieldset>
+                
+
+            </form>
+        </div>
+        <div class="leftsection">
+                <button class="btn">Submit</button>
+        </div>
+    </div>
+</body>
+</html>
